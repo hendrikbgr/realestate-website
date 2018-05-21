@@ -1,6 +1,20 @@
-#about {
+html {
+  background-color: white;
   font-family: raleway;
   color: #565656;
+}
+#about, #features {
+  font-family: raleway;
+  color: #565656;
+  padding-bottom: 0px;
+  padding-top: 30px;
+  margin-bottom: 0px;
+}
+#features {
+  padding-bottom: 150px;
+}
+#tour {
+  font-family: raleway;
 }
 .content-section.text-center {
   background-color: white;
@@ -16,4 +30,25 @@
   font-family: raleway;
   line-height: 35px;
   font-weight: normal;
+}
+.about-icons {
+  height: 35px;
+  margin-right: 30px;
+}
+.about-li {
+  display: flex;
+}
+.about-list-row {
+  margin-top: 60px !important;
+  width: 350px;
+  margin: 0 auto;
+}
+.about-p {
+  margin-left: 50px;
+}
+.content-section.text-center {
+  margin-bottom: -75px;
+}
+.hr-css-about {
+  margin-bottom: 50px;
 }
